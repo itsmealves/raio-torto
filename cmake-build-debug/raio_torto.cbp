@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="raio_torto"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/gabriel/Projetos/raio-torto/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/gabriel/Projetos/raio-torto/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/gabriel/Projetos/raio-torto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/gabriel/Projetos/raio-torto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/gabriel/Projetos/raio-torto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/gabriel/Projetos/raio-torto/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/gabriel/Projetos/raio-torto/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/gabriel/Projetos/raio-torto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/gabriel/Projetos/raio-torto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/gabriel/Projetos/raio-torto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/gabriel/Projetos/raio-torto/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/gabriel/Projetos/raio-torto/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/gabriel/Projetos/raio-torto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/gabriel/Projetos/raio-torto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/gabriel/Projetos/raio-torto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raio_torto">
+				<Option output="/home/gabriel/Projetos/raio-torto/cmake-build-debug/raio_torto" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gabriel/Projetos/raio-torto/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../include/c++/7.3.0/x86_64-solus-linux"/>
+					<Add directory="/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-solus-linux/7.3.0/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-solus-linux/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/gabriel/Projetos/raio-torto/cmake-build-debug/Makefile&quot;  VERBOSE=1 raio_torto"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/gabriel/Projetos/raio-torto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/gabriel/Projetos/raio-torto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/gabriel/Projetos/raio-torto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raio_torto/fast">
+				<Option output="/home/gabriel/Projetos/raio-torto/cmake-build-debug/raio_torto" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gabriel/Projetos/raio-torto/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../include/c++/7.3.0/x86_64-solus-linux"/>
+					<Add directory="/usr/lib64/gcc/x86_64-solus-linux/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-solus-linux/7.3.0/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-solus-linux/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/gabriel/Projetos/raio-torto/cmake-build-debug/Makefile&quot;  VERBOSE=1 raio_torto/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/gabriel/Projetos/raio-torto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/gabriel/Projetos/raio-torto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/gabriel/Projetos/raio-torto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/gabriel/Projetos/raio-torto/engine/Ray.cpp">
+			<Option target="raio_torto"/>
+		</Unit>
+		<Unit filename="/home/gabriel/Projetos/raio-torto/engine/Ray.h">
+			<Option target="raio_torto"/>
+		</Unit>
+		<Unit filename="/home/gabriel/Projetos/raio-torto/engine/Renderer.cpp">
+			<Option target="raio_torto"/>
+		</Unit>
+		<Unit filename="/home/gabriel/Projetos/raio-torto/engine/Renderer.h">
+			<Option target="raio_torto"/>
+		</Unit>
+		<Unit filename="/home/gabriel/Projetos/raio-torto/engine/World.cpp">
+			<Option target="raio_torto"/>
+		</Unit>
+		<Unit filename="/home/gabriel/Projetos/raio-torto/engine/World.h">
+			<Option target="raio_torto"/>
+		</Unit>
+		<Unit filename="/home/gabriel/Projetos/raio-torto/main.cpp">
+			<Option target="raio_torto"/>
+		</Unit>
+		<Unit filename="/home/gabriel/Projetos/raio-torto/math/Vector.cpp">
+			<Option target="raio_torto"/>
+		</Unit>
+		<Unit filename="/home/gabriel/Projetos/raio-torto/math/Vector.h">
+			<Option target="raio_torto"/>
+		</Unit>
+		<Unit filename="/home/gabriel/Projetos/raio-torto/thing/Sphere.cpp">
+			<Option target="raio_torto"/>
+		</Unit>
+		<Unit filename="/home/gabriel/Projetos/raio-torto/thing/Sphere.h">
+			<Option target="raio_torto"/>
+		</Unit>
+		<Unit filename="/home/gabriel/Projetos/raio-torto/thing/Thing.cpp">
+			<Option target="raio_torto"/>
+		</Unit>
+		<Unit filename="/home/gabriel/Projetos/raio-torto/thing/Thing.h">
+			<Option target="raio_torto"/>
+		</Unit>
+		<Unit filename="/home/gabriel/Projetos/raio-torto/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
