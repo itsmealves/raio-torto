@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/gabriel/Projetos/raio-torto/engine/LightSource.cpp" "/home/gabriel/Projetos/raio-torto/cmake-build-debug/CMakeFiles/raio_torto.dir/engine/LightSource.cpp.o"
   "/home/gabriel/Projetos/raio-torto/engine/Ray.cpp" "/home/gabriel/Projetos/raio-torto/cmake-build-debug/CMakeFiles/raio_torto.dir/engine/Ray.cpp.o"
   "/home/gabriel/Projetos/raio-torto/engine/Renderer.cpp" "/home/gabriel/Projetos/raio-torto/cmake-build-debug/CMakeFiles/raio_torto.dir/engine/Renderer.cpp.o"
   "/home/gabriel/Projetos/raio-torto/engine/World.cpp" "/home/gabriel/Projetos/raio-torto/cmake-build-debug/CMakeFiles/raio_torto.dir/engine/World.cpp.o"

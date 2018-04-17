@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/gabriel/Projetos/raio-torto/engine/LightSource.cpp">
+			<Option target="raio_torto"/>
+		</Unit>
+		<Unit filename="/home/gabriel/Projetos/raio-torto/engine/LightSource.h">
+			<Option target="raio_torto"/>
+		</Unit>
 		<Unit filename="/home/gabriel/Projetos/raio-torto/engine/Ray.cpp">
 			<Option target="raio_torto"/>
 		</Unit>

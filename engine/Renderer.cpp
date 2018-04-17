@@ -2,6 +2,7 @@
 // Created by gabriel on 12/04/18.
 //
 
+#include <cmath>
 #include "Renderer.h"
 
 Renderer::Renderer(int wx, int wy, int ix, int iy, int f) {
@@ -23,7 +24,10 @@ Renderer::Renderer(int wx, int wy, int ix, int iy, int f) {
 
 void Renderer::render(World w, std::string path) {
     std::vector<Thing *> things = w.getThings();
+    std::vector<LightSource *> lights = w.getLightSources();
+
     Thing *t = things[0];
+    LightSource *l = lights[0];
 
     std::ofstream file;
     file.open(path);
@@ -36,10 +40,25 @@ void Renderer::render(World w, std::string path) {
     for(int j = 0; j < _height; j++) {
         for(int i = 0; i < _width; i++) {
             int red = 255; int green = 255; int blue = 255;
+            Vector intersection(3);
             Ray *ray = genRay({(float) i, (float) j, 1.0f});
 
-            if(t->intersectedBy(ray)) {
+            if(t->intersectedBy(ray, &intersection)) {
                 t->getRGB(&red, &green, &blue);
+
+                Vector *intensity = l->getIntensity();
+                Vector *rayFromLight = l->rayTo(&intersection)->getVector();
+                Vector *normal = t->getNormal(&intersection);
+
+                float lRed = ((float) red) * intensity->get(0);
+                float lGreen = ((float) green) * intensity->get(1);
+                float lBlue = ((float) blue) * intensity->get(2);
+                float dotV = rayFromLight->dot(normal);
+                float lightComponent = dotV > 0? dotV : 0;
+
+                red = static_cast<int>(std::round(lRed * lightComponent));
+                green = static_cast<int>(std::round(lGreen * lightComponent));
+                blue = static_cast<int>(std::round(lBlue * lightComponent));
             }
 
             file << red << " " << green << " " << blue << " ";

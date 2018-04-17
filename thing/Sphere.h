@@ -11,7 +11,8 @@
 class Sphere : public Thing {
     public:
         Sphere(int red, int green, int blue, int r, Vector *center);
-        bool intersectedBy(Ray *ray) override;
+        bool intersectedBy(Ray *ray, Vector *point) override;
+        Vector *getNormal(Vector *point) override;
     private:
         Vector *_center;
         int _r;

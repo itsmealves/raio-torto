@@ -70,6 +70,15 @@ void Vector::normalize() {
         set(i, get(i) / x);
 }
 
+Vector::Vector(std::vector<float> v) {
+    _data = v;
+    _dimension = static_cast<int>(v.size());
+}
+
+Vector::Vector() {
+
+}
+
 
 
 

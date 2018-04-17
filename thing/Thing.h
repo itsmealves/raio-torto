@@ -12,7 +12,8 @@
 class Thing {
     public:
         Thing(int red, int green, int blue);
-        virtual bool intersectedBy(Ray *ray) = 0;
+        virtual bool intersectedBy(Ray *ray, Vector *point) = 0;
+        virtual Vector *getNormal(Vector *point) = 0;
         void getRGB(int *red, int *green, int *blue);
     private:
         int _red;

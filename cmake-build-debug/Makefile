@@ -123,6 +123,33 @@ raio_torto/fast:
 	$(MAKE) -f CMakeFiles/raio_torto.dir/build.make CMakeFiles/raio_torto.dir/build
 .PHONY : raio_torto/fast
 
+engine/LightSource.o: engine/LightSource.cpp.o
+
+.PHONY : engine/LightSource.o
+
+# target to build an object file
+engine/LightSource.cpp.o:
+	$(MAKE) -f CMakeFiles/raio_torto.dir/build.make CMakeFiles/raio_torto.dir/engine/LightSource.cpp.o
+.PHONY : engine/LightSource.cpp.o
+
+engine/LightSource.i: engine/LightSource.cpp.i
+
+.PHONY : engine/LightSource.i
+
+# target to preprocess a source file
+engine/LightSource.cpp.i:
+	$(MAKE) -f CMakeFiles/raio_torto.dir/build.make CMakeFiles/raio_torto.dir/engine/LightSource.cpp.i
+.PHONY : engine/LightSource.cpp.i
+
+engine/LightSource.s: engine/LightSource.cpp.s
+
+.PHONY : engine/LightSource.s
+
+# target to generate assembly for a file
+engine/LightSource.cpp.s:
+	$(MAKE) -f CMakeFiles/raio_torto.dir/build.make CMakeFiles/raio_torto.dir/engine/LightSource.cpp.s
+.PHONY : engine/LightSource.cpp.s
+
 engine/Ray.o: engine/Ray.cpp.o
 
 .PHONY : engine/Ray.o
@@ -321,6 +348,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... raio_torto"
+	@echo "... engine/LightSource.o"
+	@echo "... engine/LightSource.i"
+	@echo "... engine/LightSource.s"
 	@echo "... engine/Ray.o"
 	@echo "... engine/Ray.i"
 	@echo "... engine/Ray.s"

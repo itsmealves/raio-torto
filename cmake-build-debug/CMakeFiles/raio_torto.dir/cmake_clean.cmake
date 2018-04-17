@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/raio_torto.dir/engine/Renderer.cpp.o"
   "CMakeFiles/raio_torto.dir/math/Vector.cpp.o"
   "CMakeFiles/raio_torto.dir/thing/Sphere.cpp.o"
+  "CMakeFiles/raio_torto.dir/engine/LightSource.cpp.o"
   "raio_torto.pdb"
   "raio_torto"
 )

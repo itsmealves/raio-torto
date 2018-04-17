@@ -10,6 +10,7 @@
 class Vector {
     public:
         explicit Vector(int dimension);
+        explicit Vector(std::vector<float> v);
 
         Vector();
 

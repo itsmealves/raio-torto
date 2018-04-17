@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/home/gabriel/Projetos/raio-torto/engine/LightSource.cpp
+iostream
+-
+LightSource.h
+/home/gabriel/Projetos/raio-torto/engine/LightSource.h
+
+/home/gabriel/Projetos/raio-torto/engine/LightSource.h
+Ray.h
+/home/gabriel/Projetos/raio-torto/engine/Ray.h
+
 /home/gabriel/Projetos/raio-torto/engine/Ray.cpp
 Ray.h
 /home/gabriel/Projetos/raio-torto/engine/Ray.h
@@ -17,6 +27,8 @@ Ray.h
 /home/gabriel/Projetos/raio-torto/math/Vector.h
 
 /home/gabriel/Projetos/raio-torto/engine/Renderer.cpp
+cmath
+-
 Renderer.h
 /home/gabriel/Projetos/raio-torto/engine/Renderer.h
 
@@ -39,6 +51,8 @@ vector
 -
 ../thing/Thing.h
 /home/gabriel/Projetos/raio-torto/thing/Thing.h
+LightSource.h
+/home/gabriel/Projetos/raio-torto/engine/LightSource.h
 
 /home/gabriel/Projetos/raio-torto/main.cpp
 iostream

@@ -29,20 +29,21 @@ int main(int argc, char *argv[]) {
 
     std::cout << std::endl << " * Mundo criado * " << std::endl;
 
-    Vector *center = new Vector(3);
-
-    center->set(0, 0);
-    center->set(1, 0);
-    center->set(2, 10);
-
-    Sphere *sphere = new Sphere(255, 0, 0, 2, center);
+    Vector sphereCenter({0, 0, 10});
+    Sphere sphere(255, 0, 0, 2, &sphereCenter);
     std::cout << std::endl << " * Esfera criada * " << std::endl;
+
+    Vector lightSourceCenter({0, 8, 7.5});
+    Vector lightSourceIntensity({0.5, 0.5, 0.5});
+    LightSource lightSource(&lightSourceIntensity, &lightSourceCenter);
+    std::cout << std::endl << " * Fonte de luz criada * " << std::endl;
 
     Renderer renderer(windowWidth, windowHeight, imageWidth, imageHeight, f);
     std::cout << std::endl << " * Motor de geração iniciado * " << std::endl;
 
-    world.addThing(sphere);
-    std::cout << std::endl << " * Esfera adicionada ao mundo * " << std::endl;
+    world.addThing(&sphere);
+    world.addLightSource(&lightSource);
+    std::cout << std::endl << " * Elementos adicionados ao mundo * " << std::endl;
     std::cout << std::endl << " * Iniciando geração * " << std::endl;
     renderer.render(world, "out.ppm");
     std::cout << std::endl << " * Resultado pronto. Imagem: out.ppm * " << std::endl;
